@@ -9,19 +9,21 @@ A *NIX (preferably) machine, you can run it on a live usb ith persistence or vir
 - Python3 installed
 - Pip3 installed
 
-So, first clone the repoand enter it, then : 
+So, first clone the repo and enter it, then : 
 
-`pip3 install virtualenv` 
+`pip3 install virtualenv` to install beautiful virtual environments 
 
-`virtualenv Django`
+`virtualenv Django` to create them
 
-`source Django/bin/activate`
+`source Django/bin/activate`to activate the the comfy virtual space called Django
 
 enter the Django folder then : `pip3 install -r requirements.txt` to install the dependencies 
 
 ```python3 manage.py runserver``` TO START THE WEBSERVER.
 
-###### You might be asked to perform a migration, just type : `python manage.py migrate`
+#### You will be asked for a .env file, create it in the Splx folder with a ~secret~ key
+
+#### You might be asked to perform a migration, just type : `python manage.py migrate`
 
 Go to http://127.0.0.1:8000/ as proposed and you're off !
 
