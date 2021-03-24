@@ -15,7 +15,8 @@ So, first clone the repo and enter it, then :
 
 `virtualenv Django` to create them
 
-`source Django/bin/activate`to activate the the comfy virtual space called Django
+`source Django/bin/activate` to activate the the comfy virtual space called Django
+`deactivate` at the end of your session if you wish to leave Django's comfy-cyber-softy space
 
 enter the Django folder then : `pip3 install -r requirements.txt` to install the dependencies 
 
