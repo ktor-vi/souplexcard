@@ -21,7 +21,7 @@ enter the Django folder then : `pip3 install -r requirements.txt` to install the
 
 ```python3 manage.py runserver``` TO START THE WEBSERVER.
 
-#### You will be asked for a .env file, create it in the Splx folder with a ~secret~ key
+#### You will be asked for a .env file, create it in the Splx folder with a *secret*  key
 
 #### You might be asked to perform a migration, just type : `python manage.py migrate`
 
