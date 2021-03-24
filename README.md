@@ -19,8 +19,9 @@ So, first clone the repoand enter it, then :
 
 enter the Django folder then : `pip3 install -r requirements.txt` to install the dependencies 
 
-```python3 manage.py runserver``` TO START THE WEBSERVER, 
-(you might be asked to perform a migration, just type : `python manage.py migrate` ) 
+```python3 manage.py runserver``` TO START THE WEBSERVER.
+
+###### You might be asked to perform a migration, just type : `python manage.py migrate`
 
 Go to http://127.0.0.1:8000/ as proposed and you're off !
 
